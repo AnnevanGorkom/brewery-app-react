@@ -31,4 +31,5 @@
 .Brewery .image {
   max-width: 40%;
   font-style: italic;
+  margin: 0 auto;
 }
