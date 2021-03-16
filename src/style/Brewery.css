@@ -1,20 +1,34 @@
-.Brewery .card {
-  margin: 20px auto;
-  box-shadow: 4px 4px 16px rgba(240, 121, 0, 0.8);
-  width: 100%;
-  display: flex;
-  background: #fff;
-  border-radius: 5px;
-}
-
-.Brewery .card-container {
-  padding: 16px;
-  max-width: 60%;
+.Brewery h4 {
+  margin-top: 0;
 }
 
 .Brewery img {
   display: block;
   max-width: 100%;
   max-height: 100%;
-  padding: 16px 16px 0 0;
+}
+
+.Brewery .card {
+  margin: 30px auto;
+  box-shadow: 4px 4px 16px rgba(240, 121, 0, 0.8);
+  width: 100%;
+  display: flex;
+  background: #fff;
+  border-radius: 5px;
+  padding: 30px;
+  transition: all .3s ease-in-out;
+}
+
+.Brewery .card:hover {
+  box-shadow: 8px 8px 16px rgba(240, 121, 0, 0.8);
+}
+
+.Brewery .card-container {
+  width: 60%;
+  padding-right: 30px;
+}
+
+.Brewery .image {
+  max-width: 40%;
+  font-style: italic;
 }

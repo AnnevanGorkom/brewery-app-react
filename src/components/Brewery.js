@@ -19,9 +19,10 @@ export default function Breweries(props) {
             <p>{description}</p>
           </div>
           <div className="image">
-            { image ? <img src={image} alt={breweryName} /> : 'No image available' }
+            {image ? <img src={image} alt={breweryName} /> : "No logo available"}
           </div>
         </div>
     </li>
   );
 }
+

@@ -14,9 +14,9 @@ export default function Breweries() {
 
     for (let i = 0; i < response.data.totalResults; i++) {
       // gives a value to undefined properties
-      response.data.data[i].description = (typeof response.data.data[i].description !== "undefined") ? response.data.data[i].description: "no description available";
-      response.data.data[i].images = (typeof response.data.data[i].images !== "undefined") ? response.data.data[i].images: "No logo available";
-      response.data.data[i].locations = (typeof response.data.data[i].locations !== "undefined") ? response.data.data[i].locations: "No country available";
+      response.data.data[i].description = (typeof response.data.data[i].description !== "undefined") ? response.data.data[i].description : "No description available";
+      response.data.data[i].images = (typeof response.data.data[i].images !== "undefined") ? response.data.data[i].images : null ;
+      response.data.data[i].locations = (typeof response.data.data[i].locations !== "undefined") ? response.data.data[i].locations : "No country available";
       
       // creates brewery object, more properties can be added
       let brewery = {

@@ -11,6 +11,7 @@ function App() {
       <h1>Beers from around the world</h1>
       <Search />
       <Breweries data />
+      <footer>Created by Anne van Gorkom: <a href="https://github.com/AnnevanGorkom/brewery-app-react">Github</a></footer>
     </div>
   );
 }
