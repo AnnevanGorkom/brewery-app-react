@@ -1,9 +1,10 @@
 .Brewery .card {
-  margin: 0 auto;
+  margin: 20px auto;
   box-shadow: 4px 4px 16px rgba(240, 121, 0, 0.8);
   width: 100%;
   display: flex;
   background: #fff;
+  border-radius: 5px;
 }
 
 .Brewery .card-container {
